@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine · MA Yuyuan</title>
+  <link rel="icon" href="favicon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="machine.css">
+</head>
+<body>
+  <header id="site-header"></header>
+  <main>
+    <h1>The Useless Machine</h1>
+    <p>One switch. One surprise. Back to the start.</p>
+
+    <div class="machine">
+      <div class="box">
+        <input type="checkbox" id="switch" class="sr-only">
+        <label for="switch" class="toggle-label"><span class="knob"></span></label>
+        <div class="hand" id="hand">🤚</div>
+      </div>
+      <p class="message" id="message">It is waiting for you to turn it on.</p>
+      <p class="count">The machine has switched itself off <span id="count">0</span> time(s).</p>
+    </div>
+
+    <p class="note">A machine that does nothing — absolutely nothing — except switch itself off.</p>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="nav.js"></script>
+  <script src="machine.js"></script>
+</body>
+</html>
