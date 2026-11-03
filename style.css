@@ -128,3 +128,20 @@ nav a:hover {
   margin-top: .5rem;
   color: #d1d5db;
 }
+
+/* 8 · Responsive: the nav stacks on small screens */
+@media (max-width: 640px) {
+  nav {
+    flex-wrap: wrap;
+    row-gap: .5rem;
+    padding: .75rem 1rem;
+  }
+  nav .links {
+    order: 3;
+    width: 100%;
+    margin: 0;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: .25rem;
+  }
+}
