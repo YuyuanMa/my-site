@@ -151,3 +151,16 @@ nav a:hover {
     height: 12rem;
   }
 }
+
+/* 9 · Quote search box */
+.search {
+  margin-bottom: 1.5rem;
+}
+.search input {
+  width: 100%;
+  max-width: 24rem;
+  padding: .5em .75em;
+  font: inherit;
+  border: 1px solid #dcd8d0;
+  border-radius: 8px;
+}
