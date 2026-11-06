@@ -164,3 +164,24 @@ nav a:hover {
   border: 1px solid #dcd8d0;
   border-radius: 8px;
 }
+
+/* 10 · Back-to-top button */
+.to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: .5em .9em;
+  font: inherit;
+  background: #1f2937;
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+}
+.to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
