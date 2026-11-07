@@ -185,3 +185,17 @@ nav a:hover {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* 11 · Skip link: hidden until focused */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #1f2937;
+  color: #fff;
+  padding: .5em 1em;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 0;
+}
