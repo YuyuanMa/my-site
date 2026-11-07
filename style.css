@@ -199,3 +199,11 @@ nav a:hover {
 .skip-link:focus {
   left: 0;
 }
+
+/* 12 · Visible focus for keyboard users */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #c2410c;
+  outline-offset: 2px;
+}
