@@ -1,6 +1,6 @@
 # my-site
 
-A small hand-written personal website: five pages, shared navigation and footer, and a useless machine.
+A small personal website: five pages, shared navigation and footer, and a useless machine.
 
 ## Pages
 - `index.html` — homepage
