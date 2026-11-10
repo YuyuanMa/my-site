@@ -14,3 +14,6 @@ Plain HTML, CSS and JavaScript. Navigation and footer are shared through `nav.ht
 
 ## Run locally
 Open with VS Code's Live Server — the shared navigation needs http://, not file://.
+
+## Live
+The site is live at **https://yuyuanma.github.io/my-site/**.
